@@ -21,8 +21,7 @@
     "win32"
   ],
   "scripts": {
-    "install": "node ./src/lib/build.js && node-gyp configure && node-gyp build",
-    "clean-lib": "node ./src/lib/clean.js"
+    "install": "node ./src/lib/build.js && node-gyp configure && node-gyp build"
   },
   "main": "build/Release/talib.node",
   "engines": {
