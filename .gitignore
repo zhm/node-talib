@@ -5,6 +5,7 @@ build
 *.lo
 *.o
 node_modules
+src/lib/lib/*.a
 
 // Windows build files
 *.lib
