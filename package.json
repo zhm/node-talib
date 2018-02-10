@@ -22,7 +22,7 @@
   ],
   "scripts": {
     "install": "node ./src/lib/build.js && node-gyp configure && node-gyp build",
-    "clean": "node ./src/lib/clean.js"
+    "clean-lib": "node ./src/lib/clean.js"
   },
   "main": "build/Release/talib.node",
   "engines": {
